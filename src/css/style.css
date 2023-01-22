@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.validator {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto auto;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.card {
+    display: block;
+    width: 80px;
+    height: 50px;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.card-disabled {
+    opacity: .3;
+}
+
+.validation-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-input {
+    width: 100%;
+    height: 40px;
+}
+
+.card-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.submit-button {
+    width: 120px;
+    margin-left: 10px;
+}
+.notifications {
+    margin-top: 20px;
+    display: flex;
+}
+  
+.discover {
+    background-image: url("../img/discover.png");
+}
+
+.visa {
+    background-image: url("../img/visa.png");
+}
+
+.mastercard {
+    background-image: url("../img/mastercard.png");
+}
+
+.american-express {
+    background-image: url("../img/american_express.png");
+}
+
+.mir {
+    background-image: url("../img/mir.png");
+}
+
+.hidden {
+    display: none;
+}

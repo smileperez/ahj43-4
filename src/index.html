@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task AHS43-4</title>
+</head>
+<body>
+    
+    <div class="validator">
+        <ul class="cards">
+            <li><span class="card visa" title="visa"></span></li>
+            <li><span class="card mastercard" title="mastercard"></span></li>
+            <li><span class="card american-express" title="american-express"></span></li>
+            <li><span class="card discover" title="discover"></span></li>
+            <li><span class="card mir" title="mir"></span></li>
+        </ul>
+        <form id="form" class="validation-form">
+          <input id="card-number" class="card-input" type="number" placeholder="Номер карты">
+          <button id="submit-button" class="submit-button">Валидировать</button>
+        </form>
+        <div class="notifications">
+            <div class="valid hidden"></div>
+            <div class="not-valid hidden"></div>
+        </div>
+    </div>
+
+</body>
+</html>
